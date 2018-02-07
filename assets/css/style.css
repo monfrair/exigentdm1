@@ -5,6 +5,7 @@ body {
 
 .card-body {
     height: 375px;
+    font-size: 15px;
 
 }
 
@@ -23,9 +24,15 @@ body {
 
 }
 
-.jumbotron {
-    background-image: url('/assets/images/gb.jpg');
+.card {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
+.jumbotron {
+    background-color: brown;
+    padding-top: 15px;
+    /*    margin-top: 20px;*/
 }
 
 .form-row {
@@ -34,4 +41,8 @@ body {
 
 #platforms {
     text-align: center;
+}
+
+#services-container {
+    background-color: cornflowerblue;
 }
