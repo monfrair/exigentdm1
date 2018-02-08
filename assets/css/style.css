@@ -49,10 +49,11 @@ body {
 
 /************Header jumbo******/
 
-.jumbotron {
+.img-size {
     /*    background: url(/assets/images/Exigent-DM-Cover.png);*/
     background-size: cover;
-    /*    height: 400px;*/
+    height: 325px;
+    width: auto;
     /*    padding-top: 15px;*/
     /*    background-image: url('./assets/images/Exigent-DM-Cover.png');*/
 }
