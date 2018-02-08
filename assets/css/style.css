@@ -1,18 +1,16 @@
 body {
     background-image: url(/assets/images/wall-2933017_1920.jpg);
-    background-color: darkturquoise;
-}
-
-.card-body {
-    height: 375px;
-    font-size: 15px;
 
 }
+
 
 .fas {
     align-content: center;
     margin-top: 10px;
 }
+
+
+/********************Service Cards****************/
 
 .card-title {
     color: crimson;
@@ -27,13 +25,37 @@ body {
 .card {
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: burlywood;
 }
 
-.jumbotron {
-    background-color: brown;
-    padding-top: 15px;
-    /*    margin-top: 20px;*/
+.card-body {
+    height: 375px;
+    font-size: 15px;
+
 }
+
+/********************end Service Cards****************/
+
+/********************Jumbotrons****************/
+
+#services-container {
+    background-color: cornflowerblue;
+    padding-top: 15px;
+}
+
+#dmIntro {
+    background-color: white;
+}
+
+/************Header jumbo******/
+
+.jumbotron {
+    background-color: red;
+    padding-top: 15px;
+    background-image: url('./assets/images/Exigent-DM-Cover.png');
+}
+
+/********************end Jumbotrons****************/
 
 .form-row {
     text-align: center;
@@ -41,8 +63,4 @@ body {
 
 #platforms {
     text-align: center;
-}
-
-#services-container {
-    background-color: cornflowerblue;
 }
