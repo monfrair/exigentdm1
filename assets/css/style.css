@@ -1,8 +1,8 @@
-body {
+.body {
     font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+
 }
-
-
 
 .fas {
     align-content: center;
@@ -70,12 +70,6 @@ body {
 
 /*   ******************footer***************************************/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 .search-text {
     margin-top: 50px;
     background-color: #272d33;
@@ -92,7 +86,7 @@ body {
 
 .search-text .btn-search {
     background: #da3e44;
-    font-family: Roboto;
+
     border: none;
     color: #FFF;
     height: 45px;
@@ -160,9 +154,11 @@ footer {
 
 /*   ******************contact form***************************************/
 
+/*
 body {
     padding: 20px 0;
     font-family: Lato, sans-serif;
 }
+*/
 
 /*   ******************contact form***************************************/
