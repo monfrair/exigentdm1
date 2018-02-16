@@ -2,6 +2,11 @@
     font-family: 'Lato', sans-serif;
     padding-top: 50px;
 
+
+}
+
+.h1 {
+    text-align: center;
 }
 
 .fas {
@@ -40,11 +45,14 @@ img: #wjhs-photo {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #f03d33;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 .card-body {
     height: 375px;
-    font-size: 15px;
+    font-size: 18px;
     color: white;
 
 }
@@ -59,7 +67,10 @@ img: #wjhs-photo {
 }
 
 #dmIntro {
-    background-color: #e3e1e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    font-size: 18px;
 }
 
 /************Header jumbo******/
@@ -67,10 +78,14 @@ img: #wjhs-photo {
 .img-size {
 
     background-size: cover;
-    height: auto;
+    height: 400px;
     width: auto;
     align-content: center;
     background-image: url(/assets/images/gb.jpg);
+}
+
+.exdm {
+    background-image: url('/assets/images/gb.jpg') no-repeat center center;
 }
 
 /********************end Jumbotrons****************/
